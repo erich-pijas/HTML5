@@ -1,0 +1,21 @@
+.satsuma{
+    background-color: crimson;
+    padding: 50px;
+}
+
+.container{
+    margin: 0px 10%; 
+}
+
+.navItens{
+    display: flex;
+}
+
+header a{
+    text-decoration: none;
+}
+
+body{
+    padding: 0%;
+    margin: 0%;
+}
