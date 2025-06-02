@@ -2,9 +2,22 @@
     background-color: crimson;
     padding: 50px;
 }
+.pinto{
+    margin: 0px 10%;
+}
 
 .container{
-    margin: 0px 10%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background: #eee; 
+}
+
+.item{
+    background: #3498db;
+    color: white;
+    padding: 20px;
 }
 
 .navItens{
@@ -18,4 +31,21 @@ header a{
 body{
     padding: 0%;
     margin: 0%;
+}
+
+.block{
+    display: block;
+    background-color: blue;
+}
+
+.inline{
+    display: inline;
+    background-color: violet;
+}
+
+.inlineblock{
+    display: inline-block;
+    background-color: salmon;
+    width: 200px;
+    height: 200px;
 }
