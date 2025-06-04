@@ -8,13 +8,28 @@
 
 .container{
     display: flex;
-    justify-content: space-around;
-    align-items: center;
     height: 200px;
-    background: #eee; 
+    background: #ffffff; 
+    flex-direction: row;
+    justify-content: ;
+    align-items: ;
+    flex-flow: row wrap-reversej;
 }
 
-.item{
+.item1{
+    background: #db3434;
+    color: white;
+    padding: 20px;
+    align-self: flex-end;
+}
+
+.item2{
+    background: #93db34;
+    color: white;
+    padding: 20px;
+}
+
+.item3{
     background: #3498db;
     color: white;
     padding: 20px;
